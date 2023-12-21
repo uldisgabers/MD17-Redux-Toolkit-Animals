@@ -12,8 +12,9 @@
 }
 
 .picture {
-  max-width: 450px;
   width: 100%;
+  border: 1px solid gray;
+  border-radius: 1rem;
 }
 
 .editForm {
@@ -40,6 +41,14 @@
 
   &:hover {
     background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.buttonDelete {
+  &:hover {
+    background-color: red;
     color: white;
     cursor: pointer;
   }

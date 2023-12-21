@@ -73,7 +73,7 @@ function App() {
             {...register("img")}
             required
             className={style.inputForm}
-            placeholder="Animal picture"
+            placeholder="Animal picture URL"
             value={newAnimal.img}
             onChange={(e) => {
               setNewAnimal({

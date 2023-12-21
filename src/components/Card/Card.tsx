@@ -55,7 +55,7 @@ const Card = ({ name, img, id }: Animal) => {
           <img className={style.picture} src={img} alt={name} />
           <div className={style.buttonWrapper}>
             <button
-              className={style.button}
+              className={`${style.button} ${style.buttonDelete}`}
               onClick={(e) => {
                 e.preventDefault();
 
