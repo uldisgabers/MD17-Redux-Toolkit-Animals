@@ -3,7 +3,8 @@
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  max-width: 400px;
+  border-radius: 18px;
+  width: 500px;
   gap: 1rem;
   margin: 1rem;
 }
