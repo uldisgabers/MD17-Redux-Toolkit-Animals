@@ -1,0 +1,36 @@
+.formWrapper {
+  border: 1px solid gray;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+span {
+  color: red;
+}
+
+.button {
+  padding: 15px 25px;
+  border-radius: 18px;
+  border: 1px solid gray;
+  background-color: rgb(240, 240, 255);
+  transition: 0.4s;
+  font-weight: bold;
+
+  &:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.inputForm {
+  padding: 15px 25px;
+  border-radius: 18px;
+  border: 1px solid gray;
+  background-color: rgb(240, 240, 255);
+  transition: 0.4s;
+}
